@@ -1,0 +1,152 @@
+/*------------------------------------------------------------------------------- Layout -------------------------------------------------------------------*/
+
+body{
+
+    font-family: sans-serif;
+    color: black;
+    margin-left: 3%;
+    margin-right: 3%;
+
+    
+}
+.topnav a{
+     color: black;
+  float: left;
+    display: block;
+    text-align: center;
+    padding: 5px 8px;
+    font-weight: 600;
+    
+}
+
+.topnav a:hover {
+  color: lightgray;
+    
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.column {
+
+  float: left;
+  width: 33%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+header{
+    
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+th,tr{
+    padding-left: 5px;
+}
+.footer{
+    
+    padding-top: 3%;
+}
+.contenido{
+   text-align: center;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.columnfoot{
+    
+      float: left;
+  width: 7%;
+}
+/*------------------------------------------------------------------------------------ home page -----------------------------------------------------------------------------------------*/
+
+p{
+    color: darkgrey;
+    
+}
+
+/*-------------------------------------------------------------------------------------- visuals --------------------------------------------------------------------------------------------*/
+.crop {
+  width:300px;
+  height:300px;
+  overflow: hidden;
+}
+
+/*-------------------------------------------------------------------------------------- Galeries --------------------------------------------------------------------------------------------*/
+* {
+  box-sizing: border-box;
+}
+
+
+.columngal {
+  float: left;
+  width: 10%;
+  padding-left: 5px;
+}
+
+
+.columngal img {
+  opacity: 0.9; 
+  cursor: pointer; 
+}
+
+.columngal img:hover {
+  opacity: 1;
+}
+
+
+.rowgal:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.contenedor {
+  position: relative;
+  display: none;
+}
+
+
+#imgtext {
+  position: relative;
+  top: 1%;
+  left: 1%;
+  color: darkgrey;
+  font-size: 20px;
+font-weight: 700;
+}
+
+
+.closebtn {
+  position: relative;
+  right: 5px;
+    bottom: 400px;
+  color: black;
+  font-size: 35px;
+  cursor: pointer;
+}
+.cropgal {
+  width:100px;
+  height:150px;
+  overflow: hidden;
+}
+.cropexp {
+  width:400px;
+  height: 400px;
+  overflow: hidden;
+}
+/*-------------------------------------------------------------------------------------- Audio --------------------------------------------------------------------------------------------*/
